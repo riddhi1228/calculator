@@ -8,6 +8,39 @@ body {
   height: 100vh;
   margin: 0;
 }
+/* Navbar container styling */
+#navbar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  background-color: rgb(27, 123, 119); 
+  padding: 10px 0; 
+  display: flex;
+  justify-content: center; 
+}
+#photo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+#navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+  background-color: rgb(207, 129, 142);
+}
+
+#name {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
 
 .calculator {
   width: 300px;
